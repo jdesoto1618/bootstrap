@@ -172,7 +172,104 @@
       <button type="button" class="btn btn-primary btn-sm" name="button">Primary Small</button>
       <button type="button" class="btn btn-primary btn-xs" name="button">Primary Extra Small</button>
       <button type="button" class="btn btn-primary btn-xs" name="button" disabled="disbaled">Primary Extra Small</button>
+      <hr>
+    </div> <!-- closes container div -->
 
+    <div class="container">
+      <!--       -->
+      <!-- FORMS -->
+      <!--       -->
+      <!-- section title -->
+      <h1 class="text-center bg-primary"><strong>Forms</strong></h1>
+      <form class="" action="index.html" method="get">
+        <!-- name, email, message fields -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <!-- form control makes the input field block level and styles it -->
+          <input type="text" class="form-control" name="name" value="" placeholder="Your Name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <!-- form control makes the input field block level and styles it -->
+          <input type="email" class="form-control" name="email" value="" placeholder="E-mail Address">
+        </div>
+
+        <div class="form-group">
+          <label for="message">E-mail</label>
+          <!-- form control makes the input field block level and styles it -->
+          <textarea name="message" class="form-control" rows="4" cols="80" placeholder="Add Message"></textarea>
+        </div>
+
+        <!-- selector(dropdown) field -->
+        <div class="form-group">
+          <label for="ice-cream">Ice Cream Flavors</label>
+          <!-- form control makes the input field block level and styles it -->
+          <select class="form-control" name="ice-cream">
+            <!-- list the available options. &amp created the ampersand character -->
+            <option value="cookies-cream">Cookies &amp; Cream</option>
+            <option value="cookie-dough">Chocolate Chip Cookie Dough</option>
+            <option value="butter-pecan">Butter Pecan</option>
+            <option value="moose-tracks">Moose Tracks</option>
+            <option value="rocky-road">Rocky Road</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <!-- file upload field -->
+        <div class="form-group">
+          <label for="upload">File Upload</label>
+          <!-- form control makes the input field block level and styles it -->
+          <input type="file" name="upload" value="">
+          <!-- helper field for file upload input -->
+          <p class="help-block">Only JPG and PNG files, file size limit 2 MB.</p>
+        </div>
+
+        <!-- the checkbox class is a bootstrap class. it aligns the button and the text -->
+        <div class="checkbox">
+          <!-- blank label makes the checkbox line up with the other form elements -->
+          <label>
+            <input type="checkbox" name="">Check me
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-success btn-block" name="button">Submit</button>
+        <br>
+      </form>
+
+      <h3 class="text-center">Centered Inline Forms with Label tags</h3>
+      <!-- inline forms -->
+      <!-- form inline will place form fields next to each other -->
+      <form class="form-inline text-center" action="index.html" method="get">
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <!-- form control styles the input field -->
+        <input type="text" class="form-control" name="name" value="" placeholder="Your Name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <!-- form control styles the input field -->
+        <input type="email" class="form-control" name="email" value="" placeholder="E-mail Address">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <!-- form control styles the input field -->
+        <input type="password" class="form-control" name="" value="" placeholder="Login Password">
+      </div>
+
+      <!-- the checkbox class is a bootstrap class. it aligns the button and the text -->
+      <div class="checkbox">
+        <!-- blank label makes the checkbox line up with the other form elements -->
+        <label>
+          <input type="checkbox" name="">Remember Me
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary" name="button">Login</button>
+    </form>
     </div> <!-- closes container div -->
     <!-- spacer div -->
     <div style="height: 150px; background-color: #d3d3d3; margin-top: 50px;">Spacer</div>
