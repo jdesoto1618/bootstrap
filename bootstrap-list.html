@@ -350,11 +350,63 @@
         <a href="#" class="list-group-item">Fourth One</a>
         <a href="#" class="list-group-item list-group-item-info">Item Five</a>
       </div>
+      <hr>
+    </div>
+
+    <div class="container">
+      <!--                       -->
+      <!-- PANELS, WELLS, ALERTS -->
+      <!--                       -->
+      <!-- section title -->
+      <h1 class="text-center bg-primary"><strong>Panels, Wells, Alerts</strong></h1>
+      <!-- panel with heading -->
+      <!-- panel-default can be changed to bootstrap color class. Also adds border around the panel -->
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel Title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+        <div class="panel-footer">
+          Panel footer
+        </div>
+      </div>
+
+      <h3 class="text-center">Wells</h3>
+      <!-- basic wells and sizes -->
+      <div class="well">
+        Hello World Well
+      </div>
+      <div class="well well-sm">
+        Hello World Small Well
+      </div>
+      <div class="well well-lg">
+        Hello World Large Well
+      </div>
+
+      <h3 class="text-center">Alerts</h3>
+      <!-- alerts, with color classes -->
+      <div class="alert alert-info" role="alert">Info Alert</div>
+      <div class="alert alert-success" role="alert">Success Alert</div>
+      <div class="alert alert-warning" role="alert">Warning Alert</div>
+      <div class="alert alert-danger" role="alert">Danger Alert</div>
+
+      <!-- closeable alerts. These need the bootstrap javascript in order to actually close -->
+      <div class="alert alert-info alert-dismissible">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <!-- keep alert text inside the div, but outside the button -->
+        <strong>FYI:</strong> This alert can be closed
+      </div>
+
+      <hr>
     </div>
     <!-- spacer div -->
     <div style="height: 150px; background-color: #d3d3d3; margin-top: 50px;">Spacer</div>
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- bootstrap js script -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
 <!-- TODO: row, col-xs- section -->
